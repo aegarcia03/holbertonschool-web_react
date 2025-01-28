@@ -29,7 +29,7 @@ function renderTable(students: Student[]) {
 
     // Add table headers
     const cell1 = headerRow.insertCell();
-    cell1.textContent = "First Name";
+    cell1.textContent = "Name";
     const cell2 = headerRow.insertCell();
     cell2.textContent = "Location";
 
